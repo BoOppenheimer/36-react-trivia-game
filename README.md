@@ -7,6 +7,8 @@ repository is here: https://github.com/booppenheimer/36-react-trivia-game
 ### Play game here [CodeSandBox](https://codesandbox.io/p/github/BoOppenheimer/36-react-trivia-game/master?file=/src/App.jsx:1,1)
 Goals - To make a simple trivia game with True/False answers. Retrive questions from an API endpoint. Project is to demonstrate:
 
+### note this game was written a few years ago circa 2020 ish as well. 
+
   1. Use of API (using async, superior to promise. async uses generators truly waits for response.)
     * Correct formating of given data. // using an external NPM package React HTML parser for this. 
     * Mutating this data, adding another field per record.
