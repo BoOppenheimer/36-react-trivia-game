@@ -1,0 +1,188 @@
+:root {
+  --fontlighter: #e0dbf3;
+  --secondary-color: rgba(93, 11, 98, .75);
+}
+
+
+.App {
+  display:flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  color: var(--fontlighter);
+
+}
+
+
+.container {
+  display:flex;
+  width: 350px;
+  min-height: 400px;
+  background: linear-gradient(to bottom, #3e0c65, #350e43); 
+  border-radius: 5px;
+  box-shadow:4px 8px 20px -10px rgba(0,0,0,.1);
+  margin-top: 20px;
+  padding: 10px 5px;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+}
+
+.heading_container {
+  padding: 5px 15px 2px 15px;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight:bold;
+  letter-spacing: 1.5px;
+  
+}
+
+.heading__sub {
+  font-size: 1.25em;
+  min-height: 48px;
+}
+
+.score {
+  display:flex;
+  color: rgb(59, 59, 59);
+
+}
+
+.center {
+  display:flex;
+  justify-content: center;
+}
+
+.score__box {
+  
+  display:flex;
+  flex-direction: column;
+  width: 180px;
+  background-color:var(--secondary-color);
+  margin: 10px 5px;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.score__heading {
+  color:var(--fontlighter);
+}
+
+.score__results {
+  background-color:var(--fontlighter);
+  border-radius: 3px;
+  width: 90%;
+  text-align: center;
+  margin-top:5px;
+  padding: 3px 0;
+
+}
+
+.question {
+  color:var(--fontlighter);
+  font-size: 1.25em;
+  line-height: 1.5;
+  padding: 10px;
+  min-height: 160px;
+
+}
+
+.question::first-letter {
+  color:black;
+  font-family: 'serif';
+  font-size: 2em;
+  padding: 7px 6px;
+  float: left;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+  background-color: #e2e2a4;
+  border-radius: 5px;
+}
+
+.card {
+  background-color:var(--secondary-color);
+  width: 320px;
+  margin: 5px auto;
+  border-radius: 9px;
+  min-height: 150px;
+}
+
+.btn__container {
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+}
+
+.feedback {
+  position:absolute;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  color: white;
+  left: 85px;
+  bottom: 20px;
+  z-index: 4;
+}
+
+.fb--red {
+  border: 1px solid red;
+  background-color: rgba(250, 21, 21, 0.4)
+}
+
+.fb--green {
+  border: 1px solid green;
+  background-color: rgba(67, 250, 21, 0.25)
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border:none;
+  border-radius: 10px;
+  color:var(--fontlighter);
+}
+
+.btn:focus {
+  outline:0;
+}
+
+.btn--red {
+  border: 1px solid red;
+
+  /* background-color:red; */
+  background-color: transparent;
+
+}
+
+.btn--green {
+  border: 1px solid green;
+  /* background-color:green; */
+  background-color: transparent;
+}
+
+.disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+
+
+.answer {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+

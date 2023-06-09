@@ -1,0 +1,40 @@
+table {
+  width: 330px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 5px;
+
+}
+
+thead {
+  background-color: rgb(29, 31, 31);
+  font-size: .75em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--fontlighter);
+  
+}
+
+
+.table__question {
+  font-size: .8em;
+  text-align: left;
+}
+
+.table__row__num {
+  width: 20px;
+}
+
+th, td {
+  padding: 5px;
+  border-bottom: 1px solid rgb(28, 28, 28);
+
+}
+
+.table--correct {
+  background-color: rgba(11, 159, 11, .3);
+}
+
+.table--incorrect {
+  background-color: rgba(241, 16, 16, .3);
+}
